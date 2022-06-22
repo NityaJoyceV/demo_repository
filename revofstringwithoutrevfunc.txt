@@ -1,0 +1,13 @@
+list = ['abc','dfg','gif','fd','m']
+def reverse_list(list):
+    if len(list) == 1:
+        return list
+    return reverse_list(list[1:]) + list[0:1]
+print(reverse_list(list))
+
+
+
+
+list = ['abcdfg']
+list = list[::-1]
+print (list)

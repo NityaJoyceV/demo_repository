@@ -1,0 +1,7 @@
+# Multiply  List by 4
+
+data = [10,189,90,88,8,45]
+product = [number * 4 for number in data]
+print("data1 =  ",   data)
+print("data2 =  ",  product)
+

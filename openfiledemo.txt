@@ -1,0 +1,10 @@
+# Open function to open the file "MyFile1.txt"  
+# (same directory) in read mode and
+
+demo = open("demo.txt", "r") 
+    
+# store its reference in the variable file1  
+# and "MyFile2.txt" in C:\Text in file2
+
+
+demo2 = open(r"D:\sql\demo2.txt", "r+") 

@@ -1,0 +1,5 @@
+# Multiply a Python List by a Number Using a list comprehension
+numbers = [1, 2, 3, 4, 5]
+multiplied = [number * 2 for number in numbers]
+print(multiplied)
+# Returns: [2, 4, 6, 8, 10]

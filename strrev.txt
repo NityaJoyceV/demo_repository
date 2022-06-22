@@ -1,0 +1,4 @@
+﻿s = "hari,abc"
+stringlength = len(s) +1
+slicedstring = s[stringlength::-1]
+print(slicedstring)

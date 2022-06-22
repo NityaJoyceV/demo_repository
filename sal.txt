@@ -1,0 +1,44 @@
+if(sal < 50000)
+print('NO Tax')
+
+if sal <= 50000:  
+    tax = 0
+
+elif sal <= 100000: 
+    tax = (income - 50000) * 0.05
+elif sal <= 200000: 
+    tax = (income - 50000) * 0.10 + 12500 
+elif sal <= 1000000: #10 Lakh
+    tax = (income - 750000) * 0.15 + 37500 
+elif sal <= 1250000: #12 lakh 50 thousand
+    tax = (income - 1000000) * 0.20 + 75000 
+elif sal <= 1500000: #15 lakh
+    tax = (income - 1250000) * 0.25 + 125000 
+else:
+    tax = (income - 1500000) * 0.30 + 187500
+print("you owe", tax, "Rupees in tax!")
+
+
+	
+if income <= 250000:  
+tax = 0
+elif income <= 500000: 
+    tax = (income - 250000) * 0.05
+elif income <= 750000: 
+    tax = (income - 500000) * 0.10 + 12500 
+elif income <= 1000000: 
+    tax = (income - 750000) * 0.15 + 37500 
+elif income <= 1250000: #12 lakh 50 thousand
+    tax = (income - 1000000) * 0.20 + 75000 
+elif income <= 1500000: #15 lakh
+    tax = (income - 1250000) * 0.25 + 125000 
+else:
+    tax = (income - 1500000) * 0.30 + 187500
+print("you owe", tax, "Rupees in tax!")
+Output 1:
+
+Please enter your taxable income in india: 250000
+you owe 0 Rupees in tax!
+Output 2:
+
+Please enter your taxable income in 

@@ -1,0 +1,4 @@
+
+list = ['abc','dfg','gif','fd','m']
+list = list[::-1]
+print (list)

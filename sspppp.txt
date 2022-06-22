@@ -1,0 +1,86 @@
+def count_special_character(string): 
+  
+    # Declaring variable for special characters 
+    special_char= 0
+   
+    for i in range(0, len(string)):  
+    # len(string) function to count the 
+    # number of characters in given string.
+      
+        ch = string[i]
+  
+        #.isalpha() function checks whether character 
+        #is alphabet or not.
+        if (string[i].isalpha()):  
+            continue 
+        
+        #.isdigit() function checks whether character 
+        #is a number or not.
+        elif (string[i].isdigit()):
+            continue
+            
+        else: 
+            special_char += 1
+            
+            
+    if special_char >= 1:    
+        print("String contains {} Special Character/s ".format(special_char))  
+    else:
+        print("There are no Special Characters in this String.")
+  
+# Driver Code
+if __name__ == '__main__' : 
+    string = "Code%^&*$Speedy"
+    count_special_character(string)
+
+
+special = '[(_:/,#%\=@)]'                    # Define special characters
+df['count'] = df['myvar'].str.count(special)
+
+
+
+
+#taking string as an input from the user
+string = input("Enter a String : ")
+alphabets=0
+digits=0
+specialChars=0
+#checks for each character in the string
+for i in string: 
+	#if character of the string is an alphabet
+    		if i.isalpha():
+       			 alphabets+=1
+		#if character of the string is a digit
+    		elif i.isdigit():
+        			digits+=1
+    		else: #if character of the string is a special character
+        			specialChars+=1
+print("alphabets =",alphabets,"digits =",digits,"specialChars =",specialChars)
+
+
+
+
+string = input("Enter a string : ")
+print(string)
+countt = 0
+count,t = 0
+count;t = 0
+count!t = 0
+count.t = 0
+for spchar in string:
+  if spchar == ':':
+        count:t += 1
+        print(count:t)
+  elif spchar == ',':
+        count,t += 1
+        print(count,t)
+        elif spchar == ';':
+            count;t += 1
+            print(count;t)
+            elif spchar == '!':
+                count!t += 1
+                print(count!t)
+                else:
+                    pass
+                print count.t
+                

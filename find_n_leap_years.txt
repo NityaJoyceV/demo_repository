@@ -1,0 +1,24 @@
+# prob statement - find the next 4 leap years after user input
+'''
+if the year is a century year i.e divisible by 100, such year
+you divide by 400 - then if the remainder is ZERO - it is LEAP
+if the year is NOT century year i.e. when divided by 100 the remainder is
+not 0 then it is not century year
+such year you divide by 4 and if the remainder is ZERO then
+it is LEAP year
+'''
+count = 1
+how_many=4
+year_input=int(input('enter the year of choice '))
+while count <= how_many:
+    if year_input % 100 == 0:
+        remd = year_input % 400
+    else:
+        remd = year_input % 4
+    if remd == 0:
+        count = count + 1
+        print ('Leap year ', year_input)
+    
+    year_input = year_input + 1
+print ('---------- Prog over -----------------')
+

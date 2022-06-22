@@ -1,0 +1,11 @@
+choice = input("Enter A, B or C: ")
+
+if choice == 'A':
+    print("You chose A,so Enter employee name")
+    employee_name = input("employee name = ")
+elif choice == 'B':
+    print("You chose B,so enter employee code")
+    employee_code = input("employee code = ")
+
+else:
+    print("Invalid choice, you cannot enter employee details")

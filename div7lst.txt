@@ -1,0 +1,30 @@
+# Take a list of numbers
+
+result=[]
+
+my_list = [12, 65, 54, 39, 102, 339, 221,14, 28,70,132,12]
+print("\n original list\n",list)
+      
+# Creating new List
+newlist = list[:3]+list[7:]
+ 
+# Display sliced list
+print(newlist)
+
+
+# use anonymous function to filter
+
+result = list(filter(lambda x: (x % 7 == 0), newlist))
+
+
+
+# display the result
+
+print("Numbers divisible by 7 are",result)
+
+
+
+
+
+
+

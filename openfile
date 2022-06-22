@@ -1,0 +1,2 @@
+f = open("empdetails.txt", "r")
+print(f.read())

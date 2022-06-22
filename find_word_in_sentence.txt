@@ -1,0 +1,21 @@
+# problem statement
+'''
+  enter a sentence
+  enter the word to trace
+  conclusions
+       POSITVIE :  word exists
+       NEGATIVE :  word does not exists
+'''
+sent=input('enter a sentence ... ')
+word_to_find = input('enter the word to find ')
+if word_to_find in sent:
+    msg = 'Yes Found'
+    pos = sent.index(word_to_find)
+    print (word_to_find,' is found at ',(pos+1))
+else:
+    msg = 'No word is NOT existing'
+
+print (msg)
+print()
+print ('---Program to search a word in the sentence is over ----- ')
+

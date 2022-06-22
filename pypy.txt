@@ -1,0 +1,5 @@
+file1 = open("empdetails.txt", "r")
+print(file1.read())
+# store its reference in the variable file1  
+
+

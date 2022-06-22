@@ -1,0 +1,7 @@
+
+data1= ['hari' ,'Bangalore','Deepak',"Mysore"]
+print('Original List:', data1)
+
+data1.reverse()
+
+print('Updated List:', data1)

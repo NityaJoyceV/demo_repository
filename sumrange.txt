@@ -1,0 +1,26 @@
+n = input("Enter Number to calculate sum")
+n = int(n)
+res = sum(range(1, n+1))
+print("SUM of first ", n, "numonbers is: ", res)
+
+
+n = input("Enter Number to calculate sum")
+n = int(n)
+res = sum(range(1, n+1))
+print("SUM of first ", n, "numbers is: ", res)
+
+
+
+n = input("Enter Number to calculate sum")
+n = int (n)
+sum = 0
+for num in range(0, n+1, 1):
+    sum = sum+num
+print("SUM of first ", n, "numbers is: ", sum )
+
+lst = []
+num = int(input('How many numbers: '))
+for n in range(num):
+    numbers = int(input('Enter number '))
+    lst.append(numbers)
+print("Sum of elements in given list is :", sum(lst))

@@ -1,0 +1,16 @@
+List = [154, 25, 35, 644, 56, 456, 547, 568, 649,14,28,89,90,768]
+ 
+# Show original list
+print("\nOriginal List:\n", List)
+ 
+print("\nSliced Lists: ")
+ 
+# Creating new List
+newList = List[-10:]
+ 
+# Display sliced list
+print(newList)
+
+
+ 
+
